@@ -3,7 +3,7 @@
 //GlobalStyles는 import 후 tag 형태로 작성해놓으면 적용된다.
 //App.js는 함수형으로 제작되었다.
 
-import React, { Component } from "react";
+import React from "react";
 import GlobalStyles from "../Styles/GlobalStyles";
 import { ThemeProvider } from "styled-components";
 import Theme from "../Styles/Theme";
