@@ -2,7 +2,7 @@
 
 export const defaults = {
     //localStorage에 token이 저장되어있을 경우 true 아닐 경우 false를 return 한다.
-    isLoggedIn: localStorage.getItem("token") !== null ? true : false
+    isLoggedIn: Boolean(localStorage.getItem("token")) || false
 };
 
 export const resolvers = {
